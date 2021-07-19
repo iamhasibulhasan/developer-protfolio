@@ -1,0 +1,40 @@
+body{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+}
+
+h1{
+    font-size: 40px;
+}
+.name{
+    color: orange;
+}
+section{
+    display: flex;
+}
+
+.half-width{
+    padding-left: 8%;
+    width: 50%;
+}
+.half-width img{
+    width: 80%;
+}
+#hire_me, #resume{
+    padding: 10px 40px;
+    color: white;
+    background-image: linear-gradient(to right, orange, tomato);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-wired{
+    margin-top: 100px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
