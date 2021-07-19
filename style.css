@@ -4,12 +4,18 @@ body{
 }
 
 h1{
+    font-size: 50px;
+}
+h2{
     font-size: 40px;
 }
-.name{
+section{
+    margin-bottom: 100px;
+}
+.orange{
     color: orange;
 }
-section{
+.flexiable{
     display: flex;
 }
 
@@ -33,8 +39,35 @@ section{
     background-repeat: no-repeat;
 }
 .dream-wired{
-    margin-top: 100px;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item{
+    box-shadow: 10px 10px 40px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, orange);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
